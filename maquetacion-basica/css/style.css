@@ -1,0 +1,115 @@
+body {
+	background-image: url('../img/fondo.png');
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+.formaparrafo {
+	text-align: center;
+	border: 5px solid #145EAA;
+	overflow: auto;
+	background-color: rgba(50,183,196,0.35);
+}
+header {
+	text-align: center;
+	height: 260px;
+}
+#logo {
+	border: 5px solid #145EAA;
+	background-color: rgba(50,183,196,0.35);
+	margin-bottom: 20px;
+}
+nav ul {
+	text-decoration: none;
+	color: #94A402;
+	font-size: 20px;	
+	border: 5px solid #145EAA;
+	overflow: auto;
+	background-color: rgba(50,183,196,0.35);
+	display: inline-block;
+}
+nav ul li {
+	list-style: none;
+	padding-right: 15px;
+	display: inline-block;
+	padding-right: 50px;
+	text-decoration: none;
+	padding: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #94A402;
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Charmonman', cursive;
+	padding: 20px
+}
+nav u li a :hover {
+	color: red;
+	background-color: blue;
+}
+#parrafos {
+	border: 5px solid #145EAA;
+	overflow: auto;
+	background-color: rgba(50,183,196,0.35);
+	padding: 20px;
+	margin-top: 20px;
+	font-family: 'Charmonman';
+	font-size: 15px;
+}
+.principal {
+	float: left; 
+	width: 70%;
+	margin: 20px;
+	text-align: left;
+}
+#lateral {
+	margin-top: 20px; 
+    margin-right: 15px;
+    border: 5px solid #145EAA;	 
+	background-color: rgba(50,183,196,0.35);
+	width: 20%;
+	float: right;
+	padding: 20px;
+	font-family: 'Charmonman';
+	font-size: 15px;
+	margin-right: 25px
+}
+#piedepagina {
+	clear: both;
+	text-align: right;
+	border: 5px solid #145EAA;	 
+	background-color: rgba(50,183,196,0.35);
+	margin-left: 20px;
+	padding: 10px;
+	bottom: 0;
+	width: 95%;
+	margin-top: 20px;
+	font-family: 'Charmonman', cursive;
+	font-size: 25px
+}
+h2 {
+	color: red;
+}
+h3 {
+	color: white;
+	font-family: 'Anton', sans-serif;
+	padding: 10px
+}
+p {
+	color: black;
+}
+nav {
+	text-align: center;
+}
+#poppy {
+	margin-top: 50px;
+	height: 150px;
+	width: auto;
+}
+#lol {
+	height: 250px;
+	width: auto;
+}
