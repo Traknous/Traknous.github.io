@@ -1,0 +1,185 @@
+body {
+	background-color: #87A2E7;
+	font-size: 16px;
+	font-family: 'Mali', cursive; 
+}
+header {
+	height: 75px;
+	background-color: #6AD350;
+	color: #fff;
+	padding-left: 1em;
+	margin-bottom: 1em;
+}
+.logo {
+	padding-top: 1em;
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+	
+}
+.nav-horizontal {
+	background-color: #56E2D2;
+	height: 50px;
+
+	text-align: center;
+}
+.nav-horizontal ul {
+	list-style: none;
+}
+.nav-horizontal ul li {
+	display: inline-block;
+	margin-right: 2em;
+	margin-top: 1em;
+}
+.nav-horizontal ul li a {
+	text-decoration: none;
+	color: #87A2E7;
+}
+.nav-horizontal ul li a:hover {
+	background-color: white;
+	color: #87A2E7;
+	border-radius: 0.50em;
+}
+.active {
+	background-color: #6AD350;
+	color: #6AD350;
+	border-radius: 0.50em;
+}
+section.front-articles {
+	margin: 1em;
+	margin-top: 1em;
+	float: left;
+	background-color: #f4f4f4;
+	min-height: 400px;
+	width: calc(66.6% - 2em);
+	margin-right: 1em;
+	box-sizing: border-box;
+}
+
+aside {
+	margin: 1em;
+	margin-top: 1em;
+	float: left;
+	background-color: #f4f4f4;
+	min-height: 400px;
+	width: calc(33.3% - 2em);
+	box-sizing: border-box;
+	height: 100%;
+	border-radius: 1em;
+	padding-bottom: 0em;
+}
+footer {
+	margin-top: 1em;
+	background-color: #56E2D2;
+	min-height: 100px;
+}
+i.fa {
+	margin-right: 0.5em;	  
+}
+article .article-image {
+	float: left;
+	width: 40%;
+	margin-right: 1em;
+	padding-left: 1em;
+}
+article .article-text {
+	float: left;
+	width: calc(60% - 1em);
+}
+h2 {
+	padding: 1em; 
+	color: #56E2D2;
+}
+img.responsive {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: #6AD350;
+}
+.front-articles p {
+	padding-bottom: 1em;
+}
+p {
+	color: #87A2E7;
+}
+h1 {
+	background-color: #6AD350;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em;
+	border-top-right-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+}
+th {
+   	background-color: #56E2D2;
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+}
+td {
+   	background-color: rgb(238, 238, 238);
+   	color: rgb(111, 111, 111);
+   	padding: 20px 30px;
+}
+.tables {
+	height: calc(100% - 2em);
+	width: calc(100% - 2em);
+	margin: 1em;
+	border: 1px solid black;
+}
+section {
+	border-radius: 1em;
+}
+.panel {
+    padding: 1em;
+}
+.panel fieldset {
+	padding: 0.25em;
+	border-bottom: 1px solid #6AD350;
+}
+fieldset label {
+	width: 40%;
+	display: inline-block;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+input[type="text"], input[type="email"], select {
+	font-size: 1em;
+	width: 250px;
+}
+textarea {
+	vertical-align: top;
+	width: 250px;
+}
+.btn {
+	padding: 1em 2em;
+  	text-align: center;
+  	box-shadow: 5px 5px 5px #303030;
+  	border-radius: 0.5em;
+  	color: #fff;
+  	margin-bottom: 7px;
+}
+.btn-gradient {
+	background-image: linear-gradient(to right, #6AD350 0%, #56E2D2 100%);
+}
+.btn-gradient:hover {
+	background-image: linear-gradient(to right, #6AD350 30%, #56E2D2 100%);
+}
+.text-center {
+	text-align: center;
+}
+
+
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
