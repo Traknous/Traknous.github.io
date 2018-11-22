@@ -1,0 +1,40 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+p {
+	color: #655560;
+}
+h1 {
+	color: #878C8F;
+}
+h2 {
+	color: #A4969B;
+}
+header img.logo {
+	height: 50px;
+}
+header {
+	background-color: #A4969B;	
+}
+.noticia {
+	background-color: #A4969B;	
+	float: right;
+}
+footer {
+	background-color: #A4969B;
+	text-align: right;
+	padding: 30px;
+	margin-top: 20px;
+}
+footer p {
+	color: white;
+}
+.img {
+	margin-top: 20px;
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+}
+.mega {
+	text-align: center;
+}
