@@ -1,0 +1,36 @@
+.action-button {
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+.blue {
+    background-color: rgb(29, 124, 231);
+
+}
+.action-button:active {
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.button {
+    padding: 0.5em;
+}
+#contenedor {
+    background-color: #fff;
+    margin: 10vh auto;
+    width: 75%;
+    padding: 3em;
+}
+.campo label {
+    display: inline-block;
+}
+.campo input {
+    width: 200px;
+    display: inline-block;
+    margin: 0.5em;
+} 
