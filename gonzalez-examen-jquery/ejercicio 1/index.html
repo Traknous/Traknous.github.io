@@ -6,32 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio 1</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id="contenedor">
+    <div class="container">
         <h1>Document Creator (beta)</h1>
-        <form action="" name="registro" method="POST" onsubmit="return validar()">
-            <div class="campo">
-                <label for="nombre">Nombre</label>
-                <br>
-                <input type="text" name="nombre" placeholder="Tu nombre">
+        <div class="row">
+            <div class="col-md-9">
+                <form action="" name="registro" id="registro">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <br>
+                        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="apellidos">Apellidos</label>
+                        <br>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Tus apellidos">
+                    </div>
+                    <div class="campo">
+                        <label for="nacimiento">Año de nacimiento</label>
+                        <br>
+                        <input type="nacimiento" name="nacimiento" id="nacimiento" placeholder="Tu año de nacimiento">  
+                    </div>
+                    <div class="campo">
+                        <br>
+                        <input class="btn btn-primary" type="submit" value="Crear">
+                    </div>
+                </form>
             </div>
-            <div class="campo">
-                <label for="apellidos">Apellidos</label>
-                <br>
-                <input type="text" name="apellidos" placeholder="Tus apellidos">
+            <div class="col-md-3">
+                <div class="card"> 
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title"></h4> 
+                        <p class="card-text"></p> 
+                    </div> 
+                </div>
             </div>
-            <div class="campo">
-                <label for="nacimiento">Año de nacimiento</label>
-                <br>
-                <input type="nacimiento" name="nacimiento" placeholder="Tu año de nacimiento">  
-            </div>
-            <div class="campo">
-                <input class="action-button shadow animate blue button" type="submit" value="Crear">
-            </div>
-        </form>
-        <div class="card"> <img class="card-img-top" src="" alt="Card image"> <div class="card-body"> <h4 class="card-title"></h4> <p class="card-text"></p> </div> </div>
+        </div>
     </div>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
